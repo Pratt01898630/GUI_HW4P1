@@ -20,7 +20,9 @@ Description: Contains HTML code that provides user UI and to input values for th
 </head>
 <body>
   <div class="container">
+    <!-- main header -->
     <h1 class="mt-4">Dynamic Multiplication Table</h1>
+    <!-- labels for determining the min and max numbers for the rows and columns and error messages -->
     <form id="table-form" class="mt-4">
       <div class="form-row">
         <div class="form-group col-md-3">
@@ -44,11 +46,11 @@ Description: Contains HTML code that provides user UI and to input values for th
           <div class="error-message" id="max-row-error"></div>
         </div>
       </div>
+      <!-- submit button in order to generate the table -->
       <button type="submit" id="submit-button">Submit</button>
     </form>
+    <!-- multiplication table -->
     <table id="multiplication-table" class="table table-striped table-bordered"></table>
   </div>
 </body>
 </html>
-
-
